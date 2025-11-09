@@ -8,3 +8,9 @@ build:
     build:
       - pip install -r requirements.txt
 
+run:
+  command:
+    kcommand: python main.py
+    network:
+      port: 8080
+
